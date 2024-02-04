@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite", // start dev server, aliases: `vite dev`, `vite serve`
+    "build": "vite build", // build for production
+    "preview": "vite preview" // locally preview production build
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,8 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.2"
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "react-cookie": "^7.0.2"
   }
 }
